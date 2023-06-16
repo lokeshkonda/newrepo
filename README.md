@@ -9,6 +9,7 @@ To get started, go download [the latest release](https://github.com/HandmadeMath
 Here's what sets Handmade Math apart:
 
 - **A simple single-header library.** Just `#include "HandmadeMath.h"`.
+
 - **Supports both C and C++.** While libraries like GLM only support C++, Handmade Math supports both C and C++, with convenient overloads wherever possible. For example, C++ codebases get operator overloading, and C11 codebases get `_Generic` versions of common operations.
 - **Supports all graphics APIs.** Handmade Math has left- and right-handed versions of each operation, as well as support for zero-to-one and negative-one-to-one NDC conventions.
 - **Swizzling, sort of.** Handmade Math's vector types use unions to provide several ways of accessing the same underlying data. For example, the components of an `HMM_Vec3` can be accessed as `XYZ`, `RGB`, or `UVW` - or subsets can be accessed like `.XY` and `.YZ`.
